@@ -1,0 +1,10 @@
+.background-color{
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.frame-border{
+    border: 10px solid #FFFFFF;
+    box-shadow: 0 0 45px #E1C2A8;
+    border-radius: 34px;
+}

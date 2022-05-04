@@ -1,0 +1,75 @@
+.layout {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 62%;
+    position: relative;
+}
+
+.left .infos {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.left img {
+    width: 100%;
+    max-width: 100%;
+    min-height: 1080px;
+    object-fit: cover;
+    position: relative;
+}
+
+.infos h1 {
+    font-family: 'Nunito Sans',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: #73114B;
+
+}
+
+.infos p {
+    font-family: 'Nunito Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #73114B;
+}
+
+.right {
+    width: 33%;
+}
+
+@media only screen and (max-width: 1168px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+    .left img {
+        height: 400px;
+    }
+
+    .left .infos {
+        bottom: 0;
+    }
+
+    input {
+        height: 40px;
+    }
+    .right {
+        width: 100%;
+    }
+
+}
+
